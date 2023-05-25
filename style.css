@@ -56,6 +56,18 @@ main hr {
 .leftSection {
   font-size: 1.8rem;
 }
+.leftSection .button{
+    padding: 12px;
+}
+.leftSection .btn {
+    font-size: 15px;
+    padding: 7px;
+    border: 2px solid #13132e;
+    border-radius: 22px;
+    background: #5555ac;
+    cursor: pointer;
+  }
+
 .rightSection img {
   width: 80%;
 }
@@ -140,4 +152,12 @@ footer .footer-rights{
 text-align: center;
 color: gray;
 padding-bottom: 20px;
+}
+.social-links{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.social-links::after {
+    text-decoration: none;
+    color: whitesmoke;
 }
