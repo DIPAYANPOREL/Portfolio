@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dipayan Porel - Portfolio</title>
+    <title>Dipayan Porel-Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,7 +27,7 @@
         justify-content: space-around;
         align-items: center;
         height: 75px;
-        background-color: rgb(12, 15, 20);
+        background-color: rgb(19, 40, 75);
       }
       nav ul {
         display: flex;
@@ -38,41 +38,109 @@
         list-style: none;
         margin: 0 25px;
       }
+      nav ul li a {
+        text-decoration: none;
+        color: blanchedalmond;
+      }
 
+      nav ul li a:hover {
+        color: rgb(176, 176, 176);
+        font-size: 1.02rem;
+      }
+      main hr {
+        background-color: #3c2d6c;
+        border: 0;
+        margin: 23px 96px;
+        height: 2px;
+      }
       .left {
         font-size: 1.5rem;
       }
 
-      .firstSection{
+      .firstSection {
         display: flex;
         justify-content: space-around;
-        margin: 19px 0;
+        align-items: center;
+        margin: 111px 0;
       }
 
-      .leftSection{
-        background-color: rgb(60, 60, 117);
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 1.8rem;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+
+      .text-purple {
+        color: rgb(193, 62, 193);
+      }
+      .text-purple_1 {
+        color: rgb(211, 12, 78);
+      }
+      .text-gray{
+        color: gray;
+        font-size: 0.8rem;
+      }
+      #element {
+        color: rgb(193, 62, 193);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+      }
+      .secondSection h1{
+        font-size: 1.8rem;
       }
     </style>
   </head>
   <body>
     <header>
       <nav>
-        <div class="left">D Porel Portfolio</div>
+        <div class="left">Dipayan Porel Portfolio</div>
         <div class="right">
           <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Contact me</li>
-            <li>About</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
+            <li><a href="/">About</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
       <section class="firstSection">
-        <div class="leftSection">left</div>
-        <div class="rightSection">right</div>
+        <div class="leftSection">
+          Hi, I am <span class="text-purple">Dipayan Porel</span> a
+          <div>
+            B.tech Student (2023-2025) in
+            <div class="text-purple_1">Heritage Institute of Technology</div>
+            Kolkata. I am curerrntly doing
+            <div>
+              <!-- Element to contain animated typing -->
+              <span id="element"></span>
+            </div>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="./photo/background.png" alt="background" />
+        </div>
+      </section>
+      <hr>
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
       </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Development", "&amp; member of GDSC HITK."],
+        typeSpeed: 45,
+      });
+    </script>
   </body>
 </html>
