@@ -11,91 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Rubik:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        background-color: rgb(19, 19, 46);
-        color: whitesmoke;
-        font-family: "Poppins", sans-serif;
-        font-family: "Rubik", sans-serif;
-      }
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 75px;
-        background-color: rgb(19, 40, 75);
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-
-      nav ul li {
-        list-style: none;
-        margin: 0 25px;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: blanchedalmond;
-      }
-
-      nav ul li a:hover {
-        color: rgb(176, 176, 176);
-        font-size: 1.02rem;
-      }
-      main hr {
-        background-color: #3c2d6c;
-        border: 0;
-        margin: 23px 96px;
-        height: 2px;
-      }
-      .left {
-        font-size: 1.5rem;
-      }
-
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 111px 0;
-      }
-
-      .firstSection > div {
-        width: 30%;
-      }
-      .leftSection {
-        font-size: 1.8rem;
-      }
-      .rightSection img {
-        width: 80%;
-      }
-
-      .text-purple {
-        color: rgb(193, 62, 193);
-      }
-      .text-purple_1 {
-        color: rgb(211, 12, 78);
-      }
-      .text-gray{
-        color: gray;
-        font-size: 0.8rem;
-      }
-      #element {
-        color: rgb(193, 62, 193);
-      }
-      .secondSection {
-        max-width: 80vw;
-        margin: auto;
-      }
-      .secondSection h1{
-        font-size: 1.8rem;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
+
   <body>
     <header>
       <nav>
@@ -128,13 +46,117 @@
           <img src="./photo/background.png" alt="background" />
         </div>
       </section>
-      <hr>
+      <hr />
       <section class="secondSection">
         <span class="text-gray">What I have done so far</span>
         <h1>Work Experience</h1>
-
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./photo/html5-logo.png"
+              alt="html-5 logo"
+            />
+            <div class="vertical-title">HTML Development</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              enim, laboriosam incidunt aut quibusdam fugit aliquid eius culpa
+              saepe dolor voluptas rerum quae quidem doloribus nam! Rerum
+              dignissimos reprehenderit iusto.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./photo/js-logo.png" alt="css logo" />
+            <div class="vertical-title">Javascript Development</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              enim, laboriosam incidunt aut quibusdam fugit aliquid eius culpa
+              saepe dolor voluptas rerum quae quidem doloribus nam! Rerum
+              dignissimos reprehenderit iusto.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./photo/python-logo.png"
+              alt="css logo"
+            />
+            <div class="vertical-title">Python Development</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              enim, laboriosam incidunt aut quibusdam fugit aliquid eius culpa
+              saepe dolor voluptas rerum quae quidem doloribus nam! Rerum
+              dignissimos reprehenderit iusto.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./photo/react-logo.png"
+              alt="css logo"
+            />
+            <div class="vertical-title">React Development</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              enim, laboriosam incidunt aut quibusdam fugit aliquid eius culpa
+              saepe dolor voluptas rerum quae quidem doloribus nam! Rerum
+              dignissimos reprehenderit iusto.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./photo/nodejs-logo.png"
+              alt="css logo"
+            />
+            <div class="vertical-title">Node-js Development</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              enim, laboriosam incidunt aut quibusdam fugit aliquid eius culpa
+              saepe dolor voluptas rerum quae quidem doloribus nam! Rerum
+              dignissimos reprehenderit iusto.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./photo/java-logo.png" alt="css logo" />
+            <div class="vertical-title">Java</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              enim, laboriosam incidunt aut quibusdam fugit aliquid eius culpa
+              saepe dolor voluptas rerum quae quidem doloribus nam! Rerum
+              dignissimos reprehenderit iusto.
+            </div>
+          </div>
+        </div>
+        <div class="description"></div>
       </section>
     </main>
+    <footer>
+      <div class="footerClass">
+        <div class="footer-first">
+          <h3>Dipayan's portfolio website</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Services</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div class="links">
+          <ul>
+            <li>LinkedIn</li>
+            <li>Github</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+        <div class="footer-rights">
+          This website is made by Dipayan Porel | All rights reserved
+        </div>
+      </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
