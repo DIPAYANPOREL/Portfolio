@@ -127,6 +127,9 @@ footer {
   justify-content: space-evenly;
   width: 1308px;
 }
+.footerClass > div{
+    width: 125px;
+}
 .footerClass ul{
     list-style: none;
 }
