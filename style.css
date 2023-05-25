@@ -123,8 +123,9 @@ footer {
 }
 .footerClass {
   display: flex;
-  padding: 23px 120px;
+  padding: 23px 92px;
   justify-content: space-evenly;
+  width: 1308px;
 }
 .footerClass ul{
     list-style: none;
@@ -135,4 +136,5 @@ footer {
 footer .footer-rights{
 text-align: center;
 color: gray;
+padding-bottom: 20px;
 }
